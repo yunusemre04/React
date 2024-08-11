@@ -1,0 +1,227 @@
+.header {
+  background-color: #222;
+  display: flex;
+  border-bottom: 4px solid white;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.header .title {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.h-icons {
+  display: flex;
+  float: right;
+
+  padding-top: 6px;
+
+}
+
+.h-icon {
+  margin: 0px 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 2px;
+  color: aliceblue;
+  font-size: 35px;
+  cursor: pointer
+}
+
+.h-icon:hover {
+  background-color: white;
+  color: #222;
+}
+
+.search {
+  width: 400px;
+  border-radius: 20px;
+  border: 2px solid white;
+  outline-color: #222;
+  padding: 4px 5px;
+  display: none;
+  box-shadow: 10px red;
+  transition: all 0.9s;
+  margin-top: 5px;
+  outline-offset: 2px;
+  outline-color: #222;
+  margin-right: 2px;
+}
+
+@media screen and (max-width:750px) {
+  .search {
+    display: block;
+    width: 100%;
+  }
+
+
+}
+
+
+.card {
+
+  margin-bottom: 10px;
+}
+
+.card-header {
+  border-bottom: 2px solid;
+  min-height: 125px;
+}
+
+
+img {
+  justify-content: center;
+  width: 80%;
+  height: 200px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid
+}
+
+.rate {
+  padding: 3px;
+  border-radius: 5px;
+  margin: 3px;
+  width: 15%;
+  text-align: center;
+
+
+}
+
+.price {
+  background-color: #222;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+
+}
+
+.card:hover {
+  box-shadow: 5px 5px 5px 5px green;
+  cursor: pointer;
+  transform: scale(1.03);
+  z-index: 999;
+  transition: all 0.6s;
+}
+
+.detailsPage {
+  color: white
+}
+
+.detail-img {
+  border: solid 5px #222;
+  border-radius: 10px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.detail-img img {
+  height: 340px;
+}
+
+.button {
+  width: 150px;
+  border: #222 solid 2px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background-color: orangered;
+  transition: all 0.5s;
+  border-color: orangered;
+}
+
+.countIcon:hover {
+  color: orangered;
+}
+
+.basket-header {
+  font-size: 30px;
+  font-weight: 800;
+  font-style: italic;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #222;
+  color: white;
+  border: solid 2px white;
+}
+
+.deleteBox {
+  background-color: #222;
+  color: aliceblue;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.deleteBox:hover {
+  background-color: red;
+  color: #222;
+  transition: all 0.5s;
+}
+
+.basketInfo {
+  background-color: #222;
+  color: white;
+  border: solid 2px white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.basketItem {
+  background-color: orangered;
+  color: white;
+  border: solid 2px white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.deleteBox {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 34px;
+  margin-top: 2px;
+  border: solid 2px white;
+}
+
+.basketItemCount:hover {
+  color: #222;
+}
+
+.basketProductName:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.rateCount {
+  background-color: yellow;
+  color: black;
+  border-radius: 10px;
+  padding: 4px;
+  font-weight: 500;
+}
+
+.br-r {
+  border-radius: 5px;
+  padding: 5px;
+}

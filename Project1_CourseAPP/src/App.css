@@ -1,0 +1,76 @@
+.header {
+  background-color: rgb(45, 41, 41);
+  color: aliceblue;
+  text-align: center;
+  padding: 10px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.courseItem {
+  border: 2px solid grey;
+  background-color: rgb(45, 41, 41);
+  width: 25%;
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.c-header {
+  background-color: rgb(45, 41, 41);
+  color: aliceblue;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.c-body {
+  background-color: rgb(48, 48, 48);
+  color: aliceblue;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  min-height: 300px;
+}
+
+.c-footer {
+  background-color: rgb(45, 41, 41);
+  color: aliceblue;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  min-height: 50px;
+  border-radius: 12px;
+}
+
+.courseBox {
+  display: flex;
+}
+
+.c-img {
+  min-height: 200px;
+  background-color: wheat;
+  width: 100%;
+}
+
+@media screen and (max-width:750px) {
+  .courseItem {
+    width: 100%;
+  }
+
+  .courseBox {
+    display: block;
+  }
+
+}
+
+.btn {
+  float: right;
+  margin: 2px;
+}

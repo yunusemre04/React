@@ -1,0 +1,79 @@
+.header {
+  border: solid 2px white;
+  text-align: center;
+  border-color: white;
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px
+}
+
+
+.status {
+  border: solid 2px white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+}
+
+.tasks {
+  border: solid 2px white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+
+}
+
+
+.icons {
+  font-size: 27px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.icons:hover {
+  background-color: aliceblue;
+  color: #222;
+  border-color: #222;
+}
+
+.deleteBtn {
+  border: 2px solid red;
+  background-color: red;
+  color: #222
+}
+
+.updateBtn {
+  border: 2px solid yellow;
+  background-color: yellow;
+  color: #222;
+}
+
+.compeletedBtn {
+  border: 2px solid green;
+  background-color: green;
+  color: #222;
+}
+
+.cancelBtn {
+  border: 2px solid orange;
+  background-color: orange;
+  color: #222;
+}
+
+.infoBox {
+  display: flex;
+}
+
+.addBorder {
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+@media screen and (max-width: 726px) {
+  .icons {
+    font-size: 22px;
+
+  }
+}
