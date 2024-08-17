@@ -1,0 +1,29 @@
+.formApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.form-control {
+  width: 500px;
+}
+
+.form {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  height: 100%;
+}
+
+@media screen and (max-width:750px) {
+  .form-control {
+    width: 100%;
+  }
+
+  .form {
+    width: 100%;
+  }
+}

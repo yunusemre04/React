@@ -53,10 +53,10 @@ const basketSlice = createSlice({
         },
         deleteProduct: (state, action) => {
             state.products = state.products.filter(product => product.id !== action.payload.id);
+            savetoLocalStorage(state.products);
 
 
         },
-
 
         closeNotification: (state) => {
             state.notification.open = false;
